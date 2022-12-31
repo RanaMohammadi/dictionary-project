@@ -19,7 +19,7 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary mt-3">
-      <form onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit}>
         <input type="search" onChange={handleKeyword} />
       </form>
       <Results result={result} />
