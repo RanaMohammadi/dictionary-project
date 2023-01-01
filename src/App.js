@@ -16,9 +16,17 @@ function App() {
         </main>
         <footer>
           <small>
-            Coded by{" "}
+            This project is coded by
             <a href="https://github.com/RanaMohammadi/dictionary-project">
               Rana Mohammadi
+            </a>{" "}
+            hosted on
+            <a
+              href="https://superlative-meerkat-05d685.netlify.app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Netlify
             </a>
           </small>
         </footer>
