@@ -1,15 +1,20 @@
-.app {
-  background-color: antiquewhite;
+body {
+  background: aliceblue;
 }
 .App-logo {
   width: 200px;
   margin: auto;
   display: block;
 }
-a:link {
+a {
+  color: #80aaff;
+  margin-left: 5px;
   text-decoration: none;
+}
+a:hover {
+  color: #5f94fc;
 }
 footer {
   text-align: center;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
