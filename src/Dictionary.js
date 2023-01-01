@@ -20,7 +20,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary mt-3">
       <section>
-        <h2>What word do you want to look up?</h2>
+        <h2 className="question">What word do you want to look up?</h2>
         <form className="form" onSubmit={handleSubmit}>
           <input type="search" onChange={handleKeyword} />
         </form>
